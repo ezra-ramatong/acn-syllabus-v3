@@ -1,3 +1,0 @@
-# Poodle
-
-Well, poodles huh?
