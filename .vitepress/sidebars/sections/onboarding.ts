@@ -10,8 +10,8 @@ export const onboardingTopics: DefaultTheme.SidebarItem = {
       link: "welcome/",
     },
     {
-      text: "Community and Connection",
-      link: "community-and-connection/",
+      text: "Connection and Community",
+      link: "connection-and-community/",
     },
   ],
 };
