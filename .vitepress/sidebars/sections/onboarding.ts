@@ -10,6 +10,10 @@ export const onboardingTopics: DefaultTheme.SidebarItem = {
       link: "welcome/",
     },
     {
+      text: "Meet the Umuzi team",
+      link: "meet-the-team/",
+    },
+    {
       text: "Connection and Community",
       link: "connection-and-community/",
     },
