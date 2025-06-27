@@ -2,10 +2,10 @@
 _db_id: 925
 content_type: project
 flavours:
-- none
+  - none
 prerequisites:
   hard:
-  - tech-big-picture/dev-ops
+    - tech-big-picture/dev-ops
 protect_main_branch: false
 ready: true
 submission_type: repo
@@ -24,4 +24,5 @@ Please answer the following questions:
 
 Please follow the following instructions to submit your work:
 
-{{< contentlink path="project-submission-instructions/markdown-questions" >}}
+[Project Submission Instructions](project-submission-instructions/markdown-questions)
+

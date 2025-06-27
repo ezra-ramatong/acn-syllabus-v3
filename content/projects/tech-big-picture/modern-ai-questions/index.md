@@ -2,10 +2,10 @@
 _db_id: 923
 content_type: project
 flavours:
-- none
+  - none
 prerequisites:
   hard:
-  - tech-big-picture/modern-ai
+    - tech-big-picture/modern-ai
 protect_main_branch: false
 ready: true
 submission_type: repo
@@ -18,10 +18,11 @@ Please do the following exercises and answer the questions:
 
 2. Explore how AI is used in applications you already use day to day. These could include social media, streaming services, email filters and many other tools. How does the use of AI impact your experience of these applications? What are the benefits and what are the drawbacks or challenges?
 
-3. Do some searching on the internet for recent articles about AI. What do you think is likely to change in your life given what you have read? 
+3. Do some searching on the internet for recent articles about AI. What do you think is likely to change in your life given what you have read?
 
 ## How to submit your work
 
 Please follow the following instructions to submit your work:
 
-{{< contentlink path="project-submission-instructions/markdown-questions" >}}
+[Project Submission Instructions](project-submission-instructions/markdown-questions)
+

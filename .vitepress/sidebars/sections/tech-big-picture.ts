@@ -3,7 +3,7 @@ import { DefaultTheme } from "vitepress";
 export const techBigPictureTopics: DefaultTheme.SidebarItem = {
   text: "Tech Big Picture",
   base: "/topics/tech-big-picture/",
-  collapsed: true,
+  collapsed: false,
   items: [
     {
       text: "How The Web Works",
@@ -57,7 +57,7 @@ export const techBigPictureTopics: DefaultTheme.SidebarItem = {
 export const techBigPictureProjects: DefaultTheme.SidebarItem = {
   text: "Tech Big Picture",
   base: "/projects/tech-big-picture/",
-  collapsed: true,
+  collapsed: false,
   items: [
     {
       text: "Technical Best Practices and Considerations",

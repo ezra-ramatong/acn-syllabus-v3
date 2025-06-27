@@ -2,10 +2,10 @@
 _db_id: 922
 content_type: project
 flavours:
-- none
+  - none
 prerequisites:
   hard:
-  - tech-big-picture/different-roles
+    - tech-big-picture/different-roles
 protect_main_branch: false
 ready: true
 submission_type: repo
@@ -16,7 +16,7 @@ Now you know quite a lot about how the software development world works. It's pr
 
 In any case, now is a good time to reflect on what you know and think about where you might go next with this knowledge.
 
-## Instructions 
+## Instructions
 
 Please answer the following questions:
 
@@ -36,4 +36,5 @@ Reflecting on modern AI tools and their applications, what are some potential us
 
 Please follow the following instructions to submit your work:
 
-{{< contentlink path="project-submission-instructions/markdown-questions" >}}
+[Project Submission Instructions](project-submission-instructions/markdown-questions)
+

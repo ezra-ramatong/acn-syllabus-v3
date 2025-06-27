@@ -2,10 +2,10 @@
 _db_id: 919
 content_type: project
 flavours:
-- none
+  - none
 prerequisites:
   hard:
-  - tech-big-picture/open-source
+    - tech-big-picture/open-source
 protect_main_branch: false
 ready: true
 submission_type: repo
@@ -15,8 +15,9 @@ title: Open source research
 Time to put on your research hat! Please answer the following questions:
 
 1. List 3 software applications or products that you use often. For each of these do the following:
+
 - list some good open-source alternatives
-- talk about the pros and cons of your current software and the best open-source alternative you could find 
+- talk about the pros and cons of your current software and the best open-source alternative you could find
 
 2. What are some of the most influential open-source projects in the world, and what impact have they had on the technology landscape?
 
@@ -30,4 +31,5 @@ Time to put on your research hat! Please answer the following questions:
 
 Please follow the following instructions to submit your work:
 
-{{< contentlink path="project-submission-instructions/markdown-questions" >}}
+[Project Submission Instructions](project-submission-instructions/markdown-questions)
+
