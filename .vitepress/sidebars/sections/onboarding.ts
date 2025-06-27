@@ -21,5 +21,9 @@ export const onboardingTopics: DefaultTheme.SidebarItem = {
       text: "Connection and Community",
       link: "connection-and-community/",
     },
+    {
+      text: "Umuzi Policies",
+      link: "policies/",
+    },
   ],
 };
