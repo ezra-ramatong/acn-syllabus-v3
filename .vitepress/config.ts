@@ -1,5 +1,6 @@
 import { defineConfig } from "vitepress";
 import { topicsSidebar } from "./sidebars/topics";
+import { projectsSidebar } from "./sidebars/projects";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -14,25 +15,7 @@ export default defineConfig({
 
     sidebar: {
       "/topics/": topicsSidebar,
-      "/projects/": [
-        {
-          text: "Projects",
-          items: [
-            {
-              text: "Semitone",
-              collapsed: false,
-              base: "/projects/semitone-difference/",
-              items: [
-                { text: "Basic Algorithm", link: "semitone-basic" },
-                {
-                  text: "Simple GUI",
-                  link: "semitone-simple-gui",
-                },
-              ],
-            },
-          ],
-        },
-      ],
+      "/projects/": projectsSidebar,
     },
     socialLinks: [
       { icon: "github", link: "https://github.com/vuejs/vitepress" },

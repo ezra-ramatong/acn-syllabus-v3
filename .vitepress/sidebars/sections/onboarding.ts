@@ -27,3 +27,15 @@ export const onboardingTopics: DefaultTheme.SidebarItem = {
     },
   ],
 };
+
+export const onboardingProjects: DefaultTheme.SidebarItem = {
+  text: "Onboarding",
+  base: "/projects/onboarding",
+  collapsed: false,
+  items: [
+    {
+      text: "Policy Questionaire",
+      link: "policies-submission/",
+    },
+  ],
+};
