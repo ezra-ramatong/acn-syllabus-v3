@@ -6,8 +6,12 @@ export const onboardingTopics: DefaultTheme.SidebarItem = {
   collapsed: false,
   items: [
     {
+      text: "Welcome to your learning journey",
+      link: "welcome/",
+    },
+    {
       text: "Community and Connection",
-      link: "community-connection/",
+      link: "community-and-connection/",
     },
   ],
 };
