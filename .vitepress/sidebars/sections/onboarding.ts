@@ -3,7 +3,7 @@ import { DefaultTheme } from "vitepress";
 export const onboardingTopics: DefaultTheme.SidebarItem = {
   text: "Onboarding",
   base: "/topics/onboarding/",
-  collapsed: false,
+  collapsed: true,
   items: [
     {
       text: "Welcome to your learning journey",
@@ -31,7 +31,7 @@ export const onboardingTopics: DefaultTheme.SidebarItem = {
 export const onboardingProjects: DefaultTheme.SidebarItem = {
   text: "Onboarding",
   base: "/projects/onboarding/",
-  collapsed: false,
+  collapsed: true,
   items: [
     {
       text: "Policy Questionaire",

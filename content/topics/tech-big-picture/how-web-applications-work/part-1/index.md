@@ -3,10 +3,10 @@ _db_id: 934
 content_type: topic
 prerequisites:
   hard:
-  - tech-big-picture/how-the-internet-works
+    - tech-big-picture/how-the-internet-works
 ready: true
 tags:
-- skill/web_intro
+  - skill/web_intro
 title: Anatomy of a web app - part 1 - Requests and Responses
 ---
 
@@ -16,14 +16,15 @@ In this series of topics, we'll be talking through all the moving parts that mak
 
 Here is a recording of a live discussion of these concepts covered in this series. This video doesn't cover all the details so it's still important to go through the content here.
 
-{{< youtube yygDGGpnISo >}}
+_[todo] add youtube link; video link commented out_
 
+<!-- {{< youtube yygDGGpnISo >}} -->
 
 ## Before we begin...
 
-Before we begin, it's worth noting that this is an oversimplification of how web apps work. We're keeping it simple so that we can teach specific lessons about how web applications work. 
+Before we begin, it's worth noting that this is an oversimplification of how web apps work. We're keeping it simple so that we can teach specific lessons about how web applications work.
 
-Take a look at [this](https://en.wikipedia.org/wiki/Lie-to-children). 
+Take a look at [this](https://en.wikipedia.org/wiki/Lie-to-children).
 
 ## Once upon a time...
 
@@ -36,20 +37,20 @@ You might end up looking at something a bit like this:
 What you are looking at here is a screenshot of a web browser that is looking at the Takealot home page. Takealot is South Africa's Everything store.
 
 ## The URL
- 
-Every website has a thing called a URL. You can see it at the top left of the picture above. 
+
+Every website has a thing called a URL. You can see it at the top left of the picture above.
 
 A URL is made up of a few parts:
 
 1. A protocol: Web browsers sometimes hide this part of the URL. The full URL for the site above is: `https://takealot.com`. The protocol is the part before the `://`. So in this case the protocol is https.
-2. The domain name: The domain name can be thought of as something like a physical address. 
+2. The domain name: The domain name can be thought of as something like a physical address.
 3. Whatever comes after the domain name. In this case, there isn't anything, but it's good to know that URLs can contain all sorts of extra information
 
 ### What's a protocol
 
 A web protocol is like a set of rules for how computers talk to each other over the internet. You can think of it as the language computers use to communicate with each other.
 
-Imagine writing a formal letter to the fanciest person you know. The letter would have a few parts to it, and those parts would appear in specific places. 
+Imagine writing a formal letter to the fanciest person you know. The letter would have a few parts to it, and those parts would appear in specific places.
 
 Some things that would appear in such a fancy-pants letter would be:
 
@@ -70,21 +71,21 @@ An HTTP message has a few parts to it, the main things we need to care about at 
 
 The Internet is a bit of a wild place - it's made up of a LOT of computers and other devices. When a message is sent over the Internet it doesn't go straight to its destination. It gets sent from device to device until eventually, it reaches its destination.
 
-Any device that handles a message can just read it whenever it wants to. 
+Any device that handles a message can just read it whenever it wants to.
 
 HTTP is a protocol that sends messages over the Internet in plain text. HTTPS adds security - it encrypts the message so that only the destination computer can decipher and read it.
 
 You can tell if a website is running HTTPS by interacting with the URL bar of your browser, or by looking for a little padlock symbol in the URL bar.
 
-## Displaying the web page 
+## Displaying the web page
 
 Once you type in a URL then the browser somehow figures out what to display. There are logos and colours and adverts and all sorts of interesting stuff. The browser needs to fetch that information from somewhere.
 
 Remember when we said that a domain name is like a physical address? You can think of it as the address of a computer, that computer "serves" the website and is called a "server".
 
-When you visit takealot.com in your browser then your browser sends an HTTPS *request* message to Takealot's server. Your browser *requests* the web page.
+When you visit takealot.com in your browser then your browser sends an HTTPS _request_ message to Takealot's server. Your browser _requests_ the web page.
 
-Takealot's server then sends an HTTPS *response* message with a whole lot of code in it. The response will be a thing called an HTML file.
+Takealot's server then sends an HTTPS _response_ message with a whole lot of code in it. The response will be a thing called an HTML file.
 
 HTML is a special language that is used for defining the contents of a website. Browsers understand how to visualize HTML in a human-friendly way.
 
@@ -101,8 +102,9 @@ We covered a lot of ground here. Let's wrap up by making sure all the terminolog
 - Protocol: A set of rules and conventions that computers can follow when talking to each other
 - HTTP: Hyper Text Transfer Protocol. This is used for transferring files over the internet when browsing websites. It's used in some other situations too
 - HTTPS: Secure HTTP
-- Server: A computer on the Internet that "serves" files upon request. Sometimes people also use the word "server" to mean the software running on a computer that allows it to serve files. 
+- Server: A computer on the Internet that "serves" files upon request. Sometimes people also use the word "server" to mean the software running on a computer that allows it to serve files.
 - Client: An application that needs stuff from the server. The server serves the client. In this case, the client is your browser
 - HTML: Hyper Text Markup Language. This is a simple computer language that allows you to specify the layout of a web page. Eg you can use this to say you want your website to have a heading, then a paragraph, then a picture
 - CSS: Cascading Style Sheets. This is a language for adding style to HTML. With CSS you can specify the color of a heading, the size of an image and many other things
 - JavaScript: This is a general-purpose programming language that can run inside a browser. Browsers can interpret HTML, CSS and JavaScript
+

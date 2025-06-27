@@ -3,7 +3,7 @@ import { DefaultTheme } from "vitepress";
 export const techBigPictureTopics: DefaultTheme.SidebarItem = {
   text: "Tech Big Picture",
   base: "/topics/tech-big-picture/",
-  collapsed: false,
+  collapsed: true,
   items: [
     {
       text: "How The Web Works",
@@ -13,7 +13,28 @@ export const techBigPictureTopics: DefaultTheme.SidebarItem = {
         { text: "How the Internet Works", link: "how-the-internet-works/" },
         {
           text: "How Web Applications Work",
-          link: "how-web-applications-work/",
+          items: [
+            {
+              text: "Part 1",
+              link: "how-web-applications-work/part-1/",
+            },
+            {
+              text: "Part 2",
+              link: "how-web-applications-work/part-2/",
+            },
+            {
+              text: "Part 3",
+              link: "how-web-applications-work/part-3/",
+            },
+            {
+              text: "Part 4",
+              link: "how-web-applications-work/part-4/",
+            },
+            {
+              text: "Part 5",
+              link: "how-web-applications-work/part-5",
+            },
+          ],
         },
       ],
     },
@@ -57,7 +78,7 @@ export const techBigPictureTopics: DefaultTheme.SidebarItem = {
 export const techBigPictureProjects: DefaultTheme.SidebarItem = {
   text: "Tech Big Picture",
   base: "/projects/tech-big-picture/",
-  collapsed: false,
+  collapsed: true,
   items: [
     {
       text: "Technical Best Practices and Considerations",
