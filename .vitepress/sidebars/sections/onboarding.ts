@@ -14,6 +14,10 @@ export const onboardingTopics: DefaultTheme.SidebarItem = {
       link: "meet-the-team/",
     },
     {
+      text: "Know and understand yourself",
+      link: "know-and-understand-yourself/",
+    },
+    {
       text: "Connection and Community",
       link: "connection-and-community/",
     },
