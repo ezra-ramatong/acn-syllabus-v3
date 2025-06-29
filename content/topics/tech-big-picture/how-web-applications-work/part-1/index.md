@@ -10,6 +10,10 @@ tags:
 title: Anatomy of a web app - part 1 - Requests and Responses
 ---
 
+<script setup>
+import ContainedSVG from "../ContainedSVG.vue";
+</script>
+
 In this series of topics, we'll be talking through all the moving parts that make a web application work. We'll start off very simple and add layers of complexity over time so you can see the purpose of every piece of the puzzle.
 
 ## If you like videos
@@ -89,7 +93,9 @@ Takealot's server then sends an HTTPS _response_ message with a whole lot of cod
 
 HTML is a special language that is used for defining the contents of a website. Browsers understand how to visualize HTML in a human-friendly way.
 
-![](request-response.drawio.svg)
+<!-- ![](request-response.drawio.svg) -->
+
+<ContainedSVG src="request-response.drawio.svg" alt="Request-Response demonstration"/>
 
 So your browser, the client, requests a file from the server. The server responds with the requested file.
 
@@ -107,4 +113,3 @@ We covered a lot of ground here. Let's wrap up by making sure all the terminolog
 - HTML: Hyper Text Markup Language. This is a simple computer language that allows you to specify the layout of a web page. Eg you can use this to say you want your website to have a heading, then a paragraph, then a picture
 - CSS: Cascading Style Sheets. This is a language for adding style to HTML. With CSS you can specify the color of a heading, the size of an image and many other things
 - JavaScript: This is a general-purpose programming language that can run inside a browser. Browsers can interpret HTML, CSS and JavaScript
-
