@@ -4,6 +4,4 @@
 
 For you to learn very well and lovely innit?
 
-ahoy
-
-[Foundations](/topics/foundations/introduction)
+[Onboarding](/topics/onboarding/welcome)
