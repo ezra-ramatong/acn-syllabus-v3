@@ -3,25 +3,17 @@
 layout: home
 
 hero:
-  name: "ACN-Syllabus V3"
-  text: "African Coding Network Syllabus"
-  tagline: My great project tagline
+  name: ACN-Syllabus V3
+  text: African Coding Network Syllabus
+  tagline: We are on a mission to support as many code schools as we can
+  image:
+    src: /acn-logo.png
+    alt: African Coding Network
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Get Started
+      link: /topics/
     - theme: alt
-      text: API Examples
-      link: /api-examples
-    - theme: alt
-      text: LOLCAT
-      link: /cat
-
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+      text: Learn more
+      link: https://www.africancoding.network/
 ---
