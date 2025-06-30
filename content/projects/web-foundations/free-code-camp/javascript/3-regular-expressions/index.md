@@ -8,11 +8,10 @@ tags:
 title: FreeCodeCamp - Regular Expressions
 ---
 
-# {{ $frontmatter.title }}
+# FreeCodeCamp - Regular Expressions
 
 Make an account here if you haven't already: https://www.freecodecamp.org/learn.
 
 Under "JavaScript Algorithms and Data Structures", do the section titled "Regular Expressions".
 
 Try not to ask for too many hints and do your best to understand everything.
-

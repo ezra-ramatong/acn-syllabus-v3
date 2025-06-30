@@ -100,5 +100,9 @@ export const webFoundationsProjects: DefaultTheme.SidebarItem = {
       text: "Level 2 Coding Challenges",
       link: "level-2/",
     },
+    {
+      text: "Web Development - Build your first personal website",
+      link: "web-development-website/",
+    },
   ],
 };

@@ -12,7 +12,7 @@ tags:
 title: Beginning Bash
 ---
 
-# {{ $frontmatter.title }}
+# Beginning Bash
 
 It's important to understand a bit about the command-line if you want to be a professional coder. There are a few reasons for this:
 
@@ -61,4 +61,3 @@ Make sure you understand everything up to step 14. NB: Completing and understand
 Please follow the following instructions to submit your work:
 
 [Project Submission Instructions](project-submission-instructions/markdown-questions)
-

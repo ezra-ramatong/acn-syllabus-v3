@@ -2,7 +2,7 @@
 title: Know and understand yourself
 ---
 
-# {{ $frontmatter.title }}
+# Know and Understand Yourself
 
 As part of your learning journey, we would also like to support you in your personal growth. Getting to know yourself and understanding yourself is an important part of reaching your full potential in life.
 
@@ -38,4 +38,3 @@ Check out this [video](https://www.facebook.com/watch/?ref=saved&v=5277183705658
 Have a great day!
 
 Umuzi Wellness Team.
-

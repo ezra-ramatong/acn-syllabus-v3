@@ -25,7 +25,7 @@ tags:
 title: Level 2 coding challenges
 ---
 
-# {{ $frontmatter.title }}
+# Level 2 coding challenges
 
 ## Project directory structure
 
@@ -147,4 +147,3 @@ Here are some resources you can use to continue this journey:
 - https://www.codewars.com: you should know about this already, it's legit!
 
 Have fun :)
-

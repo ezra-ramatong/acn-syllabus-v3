@@ -2,7 +2,7 @@
 title: Welcome to your learning journey
 ---
 
-# {{$frontmatter.title }}
+# Welcome to your learning journey
 
 <br>
 

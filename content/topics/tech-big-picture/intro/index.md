@@ -5,7 +5,7 @@ ready: true
 title: The Big Picture of Tech - Course Introduction
 ---
 
-# {{ $frontmatter.title }}
+# The Big Picture of Tech - Course Introduction
 
 This course aims to give quite a broad overview of tech. It is useful for anyone who is interested into getting into the software development industry in any way.
 
@@ -34,4 +34,3 @@ Research is a very important skill to develop in the tech field because tech cha
 ## Learn from your peers
 
 You will be asked to review other people's project submissions from time to time. There are a lot of reasons for this. One big one is that if you pay attention and do a good job of reviewing someone else's work then you are very likely to learn from the experience.
-

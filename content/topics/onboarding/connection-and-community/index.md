@@ -2,7 +2,7 @@
 title: Connection and community
 ---
 
-# {{ $frontmatter.title }}
+# Connection and Community
 
 <br>
 
@@ -94,4 +94,3 @@ We’ll be knocking on your digital door with newsletters, initiatives to engage
 
 <br>
 <p style="font-size: 2.2rem; font-weight: bold;">Happy Connecting!</p>
-

@@ -2,7 +2,7 @@
 title: Meet the Umuzi team
 ---
 
-# {{ $frontmatter.title }}
+# Meet the Umuzi team
 
 ![staffprofiles](staff_profiles.png)
 
