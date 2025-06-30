@@ -9,7 +9,6 @@
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview"
   },
-  {
   "engines": {
     "node": ">=22.16.0",
     "pnpm": ">=8.0.0"
