@@ -6,6 +6,7 @@ import { projectsSidebar } from "./sidebars/projects";
 export default defineConfig({
   title: "ACN Syllabus",
   description: "African Coding Network Syllabus",
+  ignoreDeadLinks: true, // purely for demonstration purposes, always make it false
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     search: {
