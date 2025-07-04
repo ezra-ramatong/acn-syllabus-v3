@@ -15,11 +15,25 @@ export default defineConfig({
     nav: [
       { text: "Topics", link: "/topics", activeMatch: "/topics/" },
       { text: "Projects", link: "/projects", activeMatch: "/projects/" },
+      {
+        text: "Syllabus",
+        items: [
+          {
+            items: [
+              { text: "Android", link: "/android" },
+              { text: "Java", link: "/java" },
+            ],
+          },
+        ],
+      },
     ],
 
     sidebar: {
       "/topics/": topicsSidebar,
       "/projects/": projectsSidebar,
+    },
+    outline: {
+      level: "deep",
     },
     socialLinks: [
       {
